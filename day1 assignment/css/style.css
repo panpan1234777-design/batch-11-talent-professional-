@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header  {
+    background-color: rgb(199, 199, 193); 
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+    align-items: center;
+    
+
+}
+h1 a {
+    text-decoration: none;
+    color: black;
+
+}
+
+header nav a    {
+    margin-left: 10px;
+    color: black;
+    font-weight: bold;
+}
+#main-ctn   {
+    display: flex;
+    
+}
+
+.Product {
+    flex: 1;    
+    padding: 20px;
+    color: black;
+    height: 160px;
+
+}
+
+.Title1 {
+    background: violet;
+    color: white;
+}
+
+.Title2 {
+    background: blue;
+    color: white;
+}
+.Title3 {
+    background: green;
+    color: white;
+}
+.Product p {
+    color: rgb(15, 15, 16);
+}
+.main   {
+    display: flex;
+    height: 320px;
+}
+
+.Content {
+   
+    background: gold;
+    padding: 20px;
+    flex: 4;
+}
+.sidebar {
+    
+    background: blue;
+    color: black;
+    padding: 20px;
+    font-weight: bold;
+    flex: 1;
+}
+.sidebar ul{
+    list-style-type: square;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.footer {
+    text-align: center;
+    padding: 10px;
+    background: teal;
+    color: white;
+}
+
+
