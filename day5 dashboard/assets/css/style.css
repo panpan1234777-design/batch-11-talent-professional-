@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    color: orange;
+    background-color: rgb(247, 249, 252);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    /* border-bottom: 2px solid gray; */
+    text-decoration: none; 
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.mini {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px; 
+    flex-direction: row;
+    text-decoration: none;   
+}
+main {
+    display: flex;
+    height: 100vh;
+    justify-content: space-between;
+    width: 100%;
+}
+.menu {
+    background-color: black;
+    color: white;
+    width: 18%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start; 
+    flex-direction: column;   
+}
+.left-menu {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 20px;
+}
+.left-menu a {
+    color: white;
+    text-decoration: none;
+    height: 40px;
+    padding: 20px 20px;
+}
+.register {
+    width: 82%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+h2 {
+    padding: 10px 10px;
+
+}
+.form {
+     padding: 20px 20px;
+    border: 1px solid black;
+    height: 90vh;
+    line-height: 30px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+    margin: 20px 20px;
+}
+.form>* {
+    width: 100%;
+    height: 35px;
+   
+}
+.submits {
+    width: 100%;
+    height: 50px;
+}
+.submit {
+    color: white;
+    background-color: red; 
+    font-size: 15px;
+    border-radius: 5px;  
+    padding: 10px 10px; 
+}
+.reset {
+    color: black;
+    background-color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 10px 10px;
+}
+footer {
+    width: 100%;
+    background-color: #c8c8c8;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    
+}
+.policy a {
+    text-decoration: none;
+}
